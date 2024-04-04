@@ -1,0 +1,157 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    padding: 5px;
+    align-items: center;
+}
+
+.page_title {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin-left: 36%;
+}
+
+#logo {
+    width: 200px;
+}
+
+#welcome {
+    text-decoration: none;
+    color: white;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+}
+
+a {
+    color: white;
+}
+
+.nav {
+    margin-left:36%;
+}
+
+.nav > a{
+    margin-right: 2em;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #cc527a;
+}
+
+/* Footer */
+footer {
+    z-index: 1;
+    left: 0;
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 280px;
+    align-items: center;
+    position: fixed;
+    justify-content: space-evenly;
+    background-color: #333;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    width: 100%;
+  
+    padding: 1rem 3rem;
+  }
+  
+  footer>* {
+    color: #E4D8C5;
+  }
+  
+  .col1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .logo2-container {
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  #logo2 {
+    width: 20%;
+  }
+  
+  .form>* {
+    font-family: Playfair Display;
+  }
+  
+  #email {
+    font-family: Playfair Display;
+  }
+  
+  .form label {
+    font-family: Playfair Display;
+  }
+  
+  .credit {
+    text-align: center;
+  }
+  
+  .credit p {
+    color: white;
+  }
+  
+  #logo {
+    font-family: Playfair Display;
+  }
+  
+  .credit>* {
+    font-family: Playfair Display;
+  }
+  
+  .credit>h2 {
+    width: max-content;
+    margin-bottom: 0.3rem;
+  }
+  
+  .credit>p {
+    font-size: 0.9rem;
+  }
