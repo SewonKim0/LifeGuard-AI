@@ -1,9 +1,8 @@
 # LifeGuard-AI
-Hi alex push test
-asjdhaskjdasljkd
-asdlkasj;dsalkjd;
-asdlsajdklj
-ASDASDADA
-uygsdffsfsdfs
-Sewon Kim push test
-kathy test
+
+# Deployment Information
+- express app, /static, and /views moved to /api for deployment implementation reasons
+
+Run Locally:
+`cd app`
+`nodemon api/index.js`
