@@ -2,12 +2,15 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
+// hbs setup
+app.set("view engine", "hbs");
+
 // static content
 app.use(express.static('./static'));
 
 // home page
 app.get('/', (req, res) => {
-    res.status(200).send('Hello World!');
+    res.render("index", {})
 });
 
 app.listen(port, () => {
