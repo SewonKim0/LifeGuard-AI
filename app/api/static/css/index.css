@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'fanwood';
+  src: url('fanwood-webfont.woff');
+}
+
 /* Reset default browser styles */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
@@ -5,7 +10,7 @@ body, h1, h2, h3, p, ul, li {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'fanwood', sans-serif;
     line-height: 1.6;
 }
 
@@ -75,13 +80,62 @@ a:hover {
     color: #cc527a;
 }
 
+/* Intro section */
+.intro > img {
+  width: 30%;
+  margin-right: 20px;
+}
+
+.intro > p {
+  font-size: 1.5em;
+}
+
+.intro {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.intro-container {
+  display: flex;
+}
+
+#intro-title {
+  text-align: center;
+  background-color:#cc527a;
+  padding: 10px;
+}
+
+/* Description */
+.description1 {
+  display: flex;
+  margin-top: 50px;
+  text-align: center;
+
+}
+
+.description2 {
+  display: flex;
+  margin-bottom: 700px;
+  text-align: center;
+}
+
+#img4 {
+  width: 50%;
+}
+#img5 {
+    width: 50%; /* Keep its original width */
+    position: absolute; /* Position it absolutely */
+    right: 0; /* Align it to the right side of the container */
+}
+
 /* Footer */
 footer {
     z-index: 1;
     left: 0;
+    bottom: 0;
     display: flex;
-    margin-bottom: 0;
-    margin-top: 280px;
     align-items: center;
     position: fixed;
     justify-content: space-evenly;
