@@ -12,7 +12,21 @@ app.use(express.static(path.resolve(__dirname, 'static')));
 // home page
 app.get('/', (req, res) => {
     res.render("index", {})
-    //res.send("Hello World");
+});
+
+// account page
+app.get('/account', (req, res) => {
+    res.render("account", {})
+});
+
+// aihealth page
+app.get('/aihealth', (req, res) => {
+    res.render("aihealth", {})
+});
+
+// doctor page
+app.get('/doctor', (req, res) => {
+    res.render("doctor", {})
 });
 
 app.listen(3000, () => {
