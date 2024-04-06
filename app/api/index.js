@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+console.log(process.env.API_KEY);
+const gpt = require('./gpt');
 
 // hbs setup
 app.set("view engine", "hbs");
