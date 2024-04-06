@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'fanwood';
-  src: url('fanwood-webfont.woff');
+  src: url('Prociono-Regular-webfont.woff');
 }
 
 /* Reset default browser styles */
@@ -45,6 +45,7 @@ nav {
     background-color: #555;
     color: #fff;
     padding: 10px;
+    font-size: 20px;
 }
 
 a {
@@ -52,7 +53,7 @@ a {
 }
 
 .nav {
-    margin-left:36%;
+    margin-left:33%;
 }
 
 .nav > a{
@@ -112,22 +113,50 @@ a:hover {
   display: flex;
   margin-top: 50px;
   text-align: center;
-
+  align-items: center;
 }
 
 .description2 {
   display: flex;
   margin-bottom: 700px;
   text-align: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
 #img4 {
   width: 50%;
 }
+
 #img5 {
     width: 50%; /* Keep its original width */
-    position: absolute; /* Position it absolutely */
     right: 0; /* Align it to the right side of the container */
+}
+
+/* Des 1 */
+.description1 > .des1 > p {
+  font-size: 30px;
+}
+.description1 > .des1 > a > button {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-family: 'fanwood';
+  background-color: #B68595;
+  color: white;
+}
+
+/* Des 2 */
+.description2 > .des2  > p {
+  font-size: 30px;
+}
+.description2 > .des2 > a > button {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-family: 'fanwood';
+  background-color: #B68595;
+  color: white;
 }
 
 /* Footer */
