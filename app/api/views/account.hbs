@@ -2,22 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link href="./styles.css" rel="stylesheet" />
+    <link href="css/account.css" rel="stylesheet" />
     <title>User's Account</title>
   </head>
 
   <body>
-    <!-- Background img -->
-    
-      <img id="background" src="background.jpeg" alt="nature" />
-    
+<header>
+  <div class="page_title">
+    <a id ='welcome' href='index'><h1>Welcome to</h1></a>
+    <a href="/"><img id='logo' src="images/logo.png" alt="LifeGuard AI logo"></a>
+  </div>
+</header>
 
-    <div class='navbar'>
-      <a href="../index.html">
-      <img id="logo" src="../logo.png" alt="Smart Recycle Logo" />
-        </a>
-    </div>
+<nav>
+  <div class="nav">
+    <a href="aihealth">AI Health Model</a>
+    <a href="doctor">Find your doctor</a>
+    <a href="account">Your Account</a>
+  </div>
+</nav>
 
+<!--main-->
 <div class='information'>
     <div class='col1'>
       <p>Username:</p>
@@ -45,44 +50,27 @@
     </div>
 </div>
 
-    <!---Reward--->
-    
-      <div class='reward_title'>
-        <img id='divider' src='divider.png' alt='divider'/>
-        <h1 id='reward_heading'>Your Rewards</h1>
-        <img id='divider' src='divider.png' alt='divider'/>
-      </div>
-
-    <div class='reward_content'>
-      <p id='point_p'>You've got: </p>
-      <h2 id='point_h2'>350 Recycle Points</h2>
-      <img id='point_img' src='point.png' alt='Recycle Point'/>
+<!--Footer -->
+<footer>
+  <div className='col1'>
+    <div className="logo2-container">
+      <img id='logo2' src ='images/logo.png' alt='Smart Cycle Logo'/>
     </div>
     
-
-
-<!---Footer--->
-    <footer>
-      <div class='col1'>
-        <div class="logo2-container">
-          <img id='logo2' src ='../logo.png' alt='Smart Cycle Logo'/>
-        </div>
-
-        <div class='form'>
-          <h3>Stay up-to-date with our monthly newsletter</h3>
-          <form action='#' method ='post2' class = 'newsletter'>
-          <label for ='email'>Email</label>
-          <input type ='email' id ='email' name = 'email' placeholder='Your Email Address' required>
-        </div>
-      </div>
-
-      <div class='credit'>
-        <h2>Created by</h2>
-        <p>Sewon Kim</p>
-        <p>Alex Jia</p>
-        <p>David Shen</p>
-        <p>Kathy Tran</p>
-      </div>
-    </footer>
+    <div className='form'>
+      <h3>Stay up-to-date with our monthly newsletter</h3>
+      <form action='#' method ='post2' class = 'newsletter'/>
+      <label for ='email'>Email</label>
+      <input type ='email' id ='email' name = 'email' placeholder='Your Email Address' required/>
+    </div>
+  </div>
+  
+  <div className='credit'>
+    <h2>Created by</h2>
+    <p>Sewon Kim</p>
+    <p>Alex Jia</p>
+    <p>Kathy Tran</p>
+  </div>
+</footer>
   </body>
 </html>

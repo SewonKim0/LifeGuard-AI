@@ -1,60 +1,85 @@
-* {
-    margin: 0;
-    padding: 0;
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
     text-align: center;
-    box-sizing: border-box;
-  }
-  
-  #background {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    object-position: center;
-    z-index: -1;
-    opacity: 0.85;
-  }
-  
-  #logo {
-    width: 250px;
-  }
-  
-  .navbar {
-    display: flex;
-    justify-content: space-between;
+    padding: 5px;
     align-items: center;
-    margin-top: -20px;
-    padding: 0rem 3rem;
-  }
-  
-  .information {
-    width: 65%;
+}
+
+.page_title {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin-left: 36%;
+}
+
+#logo {
+    width: 200px;
+}
+
+#welcome {
+    text-decoration: none;
     color: white;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+}
+
+.nav {
+    margin-left: 36%;
+}
+
+.nav > a{
+    margin-right: 2em;
+}
+/* Main */
+.information {
+    margin-bottom: 300px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1.5rem;
-  }
-  
-  footer {
-    position: fixed;
+    margin-left: 40%;
+    margin-top: 30px;
+}
+/* Col 1 */
+.col1 {
+    margin-right: 50px;
+}
+.information > .col1 > p {
+    font-size: 25px;
+}
+
+/* Col 2 */
+.information > .col2 > form {
+    margin-top: 112px;
+}
+.information > .col2 > p {
+    font-size: 25px;
+}
+
+/* Footer */
+footer {
     z-index: 1;
-    bottom: 0;
     left: 0;
+    bottom: 0;
     display: flex;
-    margin-bottom: 0;
-    margin-top: 200px;
     align-items: center;
+    position: fixed;
     justify-content: space-evenly;
-    background-color: #1B2E0D;
+    background-color: #333;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     width: 100%;
+  
     padding: 1rem 3rem;
   }
   
@@ -62,12 +87,10 @@
     color: #E4D8C5;
   }
   
-  .col1,
-  .col2 {
+  .col1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 1.1rem;
   }
   
   .logo2-container {
@@ -117,50 +140,4 @@
   
   .credit>p {
     font-size: 0.9rem;
-  }
-  
-  /*Rewards*/
-  
-  #point_img {
-    z-index: 2;
-    width: 70px;
-  }
-  
-  #point_p {
-    margin-top: 60px;
-    font-size: 30px;
-    color: white;
-  }
-  
-  #point_h2 {
-    font-size: 60px;
-    color: white;
-  }
-  
-  .reward_content {
-    background-color: transparent;
-    z-index: 2;
-    border: 3px solid #E4D8C5;
-  
-    margin-bottom: 200px;
-    width: 80%;
-    margin-left: 10%;
-  }
-  
-  #divider {
-    width: 30%;
-  }
-  
-  .reward_title {
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-bottom: 0.5rem;
-  }
-  
-  #reward_heading {
-    color: #E4D8C5;
-    font-size: 1.5rem;
-    height: min-content;
   }

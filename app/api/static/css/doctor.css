@@ -1,0 +1,190 @@
+
+@font-face {
+    font-family: 'fanwood';
+    src: url('Prociono-Regular-webfont.woff');
+  }
+  
+  /* Reset default browser styles */
+  body, h1, h2, h3, p, ul, li {
+      margin: 0;
+      padding: 0;
+  }
+  
+  body {
+      font-family: 'fanwood', sans-serif;
+      line-height: 1.6;
+  }
+  
+  /* Header styles */
+  header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      padding: 5px;
+      align-items: center;
+  }
+  
+  .page_title {
+      display: flex;
+      padding: 10px;
+      align-items: center;
+      margin-left: 36%;
+  }
+  
+  #logo {
+      width: 200px;
+  }
+  
+  #welcome {
+      text-decoration: none;
+      color: white;
+  }
+  
+  /* Navigation bar */
+  nav {
+      background-color: #555;
+      color: #fff;
+      padding: 10px;
+      font-size: 20px;
+  }
+  
+  a {
+      color: white;
+  }
+  
+  .nav {
+      margin-left:33%;
+  }
+  
+  .nav > a{
+      margin-right: 2em;
+  }
+/* Footer */
+footer {
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-evenly;
+    background-color: #333;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    width: 100%;
+  
+    padding: 1rem 3rem;
+  }
+  
+  footer>* {
+    color: #E4D8C5;
+  }
+  
+  .col1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .logo2-container {
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  #logo2 {
+    width: 20%;
+  }
+  
+  .form>* {
+    font-family: Playfair Display;
+  }
+  
+  #email {
+    font-family: Playfair Display;
+  }
+  
+  .form label {
+    font-family: Playfair Display;
+  }
+  
+  .credit {
+    text-align: center;
+  }
+  
+  .credit p {
+    color: white;
+  }
+  
+  #logo {
+    font-family: Playfair Display;
+  }
+  
+  .credit>* {
+    font-family: Playfair Display;
+  }
+  
+  .credit>h2 {
+    width: max-content;
+    margin-bottom: 0.3rem;
+  }
+  
+  .credit>p {
+    font-size: 0.9rem;
+  }
+
+  /* Doctor profiles */
+  /* Category (Dynamically Generated) */
+.category {
+    font-size: 1.2rem;
+    height: 2.2rem;
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .category:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgb(30, 30, 30);
+  }
+  
+  /*Articles*/
+  .content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 200px;
+  }
+  
+  .article {
+    border: 5px solid transparent;
+    box-sizing: border-box;
+    background-color: #E4D8C5;
+    width: 100%;
+    padding: 35px;
+    margin: 1%;
+    border-radius: 80px;
+    text-align: center;
+    animation: floatAnimation 1.5s infinite alternate ease-in-out;
+  }
+  
+  @keyframes floatAnimation {
+    0% {
+      transform: translateY(0);
+    }
+  
+    100% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  .article>* {
+    font-family: Playfair Display;
+  }
